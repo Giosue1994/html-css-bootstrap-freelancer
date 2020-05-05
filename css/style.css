@@ -1,35 +1,80 @@
 /* REGOLE GENERALI  */
 body {
   padding-top: 70px;
+  font-weight: 600;
 }
 
 section {
   padding: 30px 0;
 }
 
+section h1, h2{
+  font-weight: 600;
+}
+
 /* Sezioni */
-main .ms_section-primary {
+/* button */
+.ms_btn .glyphicon {
+  top: 4px;
+  font-size: 20px;
+  color: #ccc;
+}
+
+.ms_btn {
+  background-color: transparent;
+}
+
+.ms_btn:hover .glyphicon {
+  color: #2c3e50;
+}
+/* fine button */
+
+.ms_section-primary {
   background-color: #1abc9c;
   color: white;
 }
 
-main .ms_section-secondary {
+.ms_section-secondary {
   color: #2c3e50;
 }
-main .ms_section-secondary h2 {
+.ms_section-secondary h2 {
   color: black;
 }
 
-main .ms_section-secondary .ms_section-title {
+.ms_wrapper {
+  position: relative;
+  max-width: 992px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.ms_section-secondary .ms_section-title {
   color: #333;
 }
 
-main .ms_intro {
+.ms_intro {
   text-align: center;
 }
 
 .xs_margin-bottom {
   margin-bottom: 30px;
+}
+
+.ms_divider {
+  font-size: 35px;
+}
+
+.ms_divider:before,
+.ms_divider:after {
+  font-size: 35px;
+  position: relative;
+  top: -9px;
+  display: inline-block;
+  content: "";
+  width: 80px;
+  height: 5px;
+  background-color: white;
+  border-radius: 10px;
 }
 /* Fine Sezioni */
 /* FINE REGOLE GENERALI  */
@@ -39,6 +84,11 @@ header .ms_navbar {
 background-color: #2c3e50;
 color: white;
 line-height: 70px;
+font-weight: bold;
+}
+
+header .ms_list-menu {
+  margin-bottom: -10px;
 }
 /* FINE HEADER */
 
@@ -48,6 +98,15 @@ main .ms_jumbotron {
   text-align: center;
   padding: 32px 0;
 }
+
+main .ms_avatar {
+  width: 300px;
+  margin: 0 auto;
+}
+
+main .ms_jumbotron h2 {
+  font-size: 20px;
+}
 /* fine jumbotron */
 
 /* portfolio */
@@ -55,19 +114,26 @@ main .ms_portfolio {
   text-align: center;
 }
 
-main .ms_portfolio-item { /* cancellare */
-  background-color: #ba4b63;
-  height: 480px;
+.ms_section-secondary .ms_divider:before,
+.ms_section-secondary .ms_divider:after {
+  background-color: #2c3e50;
+}
+
+main .ms_portfolio-item img {
+  width: 100%;
   border-radius: 10px;
   margin-bottom: 30px;
 }
 /* fine portfolio */
 
 /* about */
-main .ms_wrapper {
-  max-width: 992px;
-  width: 60%;
-  margin: 0 auto;
+.ms_about .ms_btn {
+  color: white;
+  font-weight: bold;
+}
+
+.ms_about .ms_btn span:last-child {
+  margin-left: 10px;
 }
 /* fine about */
 
