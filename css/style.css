@@ -1,0 +1,99 @@
+/* REGOLE GENERALI  */
+body {
+  padding-top: 70px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+/* Sezioni */
+main .ms_section-primary {
+  background-color: #1abc9c;
+  color: white;
+}
+
+main .ms_section-secondary {
+  color: #2c3e50;
+}
+main .ms_section-secondary h2 {
+  color: black;
+}
+
+main .ms_section-secondary .ms_section-title {
+  color: #333;
+}
+
+main .ms_intro {
+  text-align: center;
+}
+
+.xs_margin-bottom {
+  margin-bottom: 30px;
+}
+/* Fine Sezioni */
+/* FINE REGOLE GENERALI  */
+
+/* HEADER */
+header .ms_navbar {
+background-color: #2c3e50;
+color: white;
+line-height: 70px;
+}
+/* FINE HEADER */
+
+/* MAIN */
+/* jumbotron */
+main .ms_jumbotron {
+  text-align: center;
+  padding: 32px 0;
+}
+/* fine jumbotron */
+
+/* portfolio */
+main .ms_portfolio {
+  text-align: center;
+}
+
+main .ms_portfolio-item { /* cancellare */
+  background-color: #ba4b63;
+  height: 480px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+/* fine portfolio */
+
+/* about */
+main .ms_wrapper {
+  max-width: 992px;
+  width: 60%;
+  margin: 0 auto;
+}
+/* fine about */
+
+/* contact me */
+/* fine contact me */
+/* FINE MAIN */
+
+/* FOOTER */
+footer .ms_footer-section {
+  padding: 40px 0;
+  color: white;
+  text-align: center;
+}
+
+footer .ms_company-info {
+  background-color: #3a546c;
+}
+
+footer .ms_company-credits {
+  background-color: #2c3e50;
+}
+/* FINE FOOTER */
+
+
+@media screen and (min-width: 768px) {
+  main .ms_jumbotron {
+    padding: 50px 0;
+  }
+}
