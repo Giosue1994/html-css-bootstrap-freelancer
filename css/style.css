@@ -8,7 +8,7 @@ section {
   padding: 30px 0;
 }
 
-section h1, h2{
+section h1, h2, h3, h4{
   font-weight: 600;
 }
 
@@ -138,6 +138,21 @@ main .ms_portfolio-item img {
 /* fine about */
 
 /* contact me */
+.form-group input,
+.form-group textarea {
+  border: none;
+  box-shadow: none;
+  background-image: none;
+  margin-top: 10px;
+  padding: 5px 5px 10px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.form-group .ms_btn {
+  color: white;
+  font-weight: bold;
+  background-color: #1abc9c;
+}
 /* fine contact me */
 /* FINE MAIN */
 
@@ -150,6 +165,19 @@ footer .ms_footer-section {
 
 footer .ms_company-info {
   background-color: #3a546c;
+}
+
+footer .ms_company-info ul li {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+footer .ms_company-info ul li i {
+  line-height: 2;
 }
 
 footer .ms_company-credits {
